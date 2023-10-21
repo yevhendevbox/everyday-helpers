@@ -1,5 +1,5 @@
 {
-  "name": "everyday-helpers",
+  "name": "@yevhen_d/everyday-helpers",
   "version": "1.0.0",
   "description": "A list of useful functions helpers for what ever project you build",
   "main": "index.js",
