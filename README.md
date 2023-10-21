@@ -7,9 +7,9 @@ This npm package provides a set of convenient filter functions for formatting an
 To install this package, you can use npm or yarn:
 
 ```sh
-npm install data-format-filters
+npm i @yevhen_d/everyday-helpers
 # or
-yarn add data-format-filters
+yarn add @yevhen_d/everyday-helpers
 ```
 
 ## Usage
