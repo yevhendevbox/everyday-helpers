@@ -19,7 +19,7 @@ yarn add @yevhen_d/everyday-helpers
 Use the `formatFileNameFilter` function to format a file name by removing the file extension.
 
 ```javascript
-const { formatFileNameFilter } = require("data-format-filters");
+import { formatFileNameFilter } from "@yevhen_d/everyday-helpers";
 
 const fileName = "example.txt";
 const formattedName = formatFileNameFilter(fileName);
@@ -31,7 +31,7 @@ console.log(formattedName); // Output: 'example'
 Use the `formatFileSizeFilter` function to format a file size in bytes into a human-readable format with appropriate suffixes.
 
 ```javascript
-const { formatFileSizeFilter } = require("data-format-filters");
+import { formatFileSizeFilter } from "@yevhen_d/everyday-helpers";
 
 const fileSizeInBytes = 1024; // 1 KB
 const formattedSize = formatFileSizeFilter(fileSizeInBytes);
@@ -43,7 +43,7 @@ console.log(formattedSize); // Output: '1 KB'
 Use the `generateFileUrlFilter` function to generate a URL for a file object.
 
 ```javascript
-const { generateFileUrlFilter } = require("data-format-filters");
+import { generateFileUrlFilter } from "@yevhen_d/everyday-helpers";
 
 const file = { name: "example.jpg" };
 const fileUrl = generateFileUrlFilter(file);
@@ -55,7 +55,7 @@ console.log(fileUrl); // Output: 'blob:...'
 Use the `removeProtocolFilter` function to remove the protocol (e.g., 'http:', 'https:') from a URL
 
 ```javascript
-const { removeProtocolFilter } = require("data-format-filters");
+import { removeProtocolFilter } from "@yevhen_d/everyday-helpers";
 
 const url = "https://example.com";
 const urlWithoutProtocol = removeProtocolFilter(url);
